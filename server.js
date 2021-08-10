@@ -10,9 +10,8 @@ app.use(express.static('public'));
 
 //DB connection
 const mongoose = require('mongoose');
-require('dotenv/config');
 mongoose.connect(
-  'mongodb+srv://HKN:Hi1234.@cluster0.17wr6.mongodb.net/test',
+  'mongodb+srv://HKN:Hi1234.@cluster0.17wr6.mongodb.net/Books',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
