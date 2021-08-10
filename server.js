@@ -12,7 +12,7 @@ app.use(express.static('public'));
 const mongoose = require('mongoose');
 require('dotenv/config');
 mongoose.connect(
-  process.env.DB_CONNECTiON,
+  'mongodb+srv://HKN:Hi1234.@cluster0.17wr6.mongodb.net/test',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
